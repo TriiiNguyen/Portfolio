@@ -1,0 +1,80 @@
+* {
+
+}
+nav{
+  position: fixed;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 10px;
+
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-columns: 20% 20% 20% 20% 20%; */
+}
+
+section {
+  align-items: center;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 20px;
+}
+
+section h1 {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 20px 20px 20px 20px ;
+  
+}
+
+img {
+  width: 80%;
+  max-width: 230px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  flex: 1;
+
+}
+
+#About-Me {
+  margin: 20px 20px 20px 20px;
+}
+
+#Portfolio{
+  grid-row: 1;
+  
+}
+#Image {
+  margin: 20px 20px 20px 20px;
+}
+#Bio{
+  grid-row: 2;
+  display: flex;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 10px;
+  
+}
+
+#ContactMe {
+  grid-row: 3;
+  
+}
