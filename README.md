@@ -16,11 +16,11 @@ This is my profession Portfolio! Check it out and follow me for more update
 
 ## Usage
 
-![image](/images/portfolio.png)
+![image](./images/portfolio.png)
 
 ## Features
 
-My portfoilio uses CSS and HTML
+My portfolio uses CSS and HTML
 
 
 ## How to Contribute
