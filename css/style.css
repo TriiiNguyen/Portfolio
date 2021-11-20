@@ -196,7 +196,7 @@
 			.image.full
 			{
 				display: block;
-				width: 100%;
+				width: auto;
 			}
 			
 			.image.left
@@ -568,7 +568,7 @@
 						position: absolute;
 						top: 0;
 						height: 100%;
-						/* width: auto; */
+						width: 100%;
 					}
 
 				.box.style1 .inner
