@@ -1,9 +1,33 @@
-* {
+
+#navbar{
+  /* position: absolute; */
+  overflow: hidden;
 
 }
-nav{
-  position: sticky;
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content{
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -19,7 +43,7 @@ main {
   display: grid;
   align-items: center;
   justify-content: center;
-  height: 150vh;
+  height: 220vh;
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr;
   /* grid-template-columns: 20% 20% 20% 20% 20%; */
@@ -31,6 +55,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 2fr 1fr;
   grid-gap: 20px;
+  
 }
 
 section h1 {
@@ -59,9 +84,14 @@ img {
   margin: 20px 20px 20px 20px;
 }
 
-.Portfolio{
+#Portfolio{
   grid-row: 1;
-  
+  height: 70vh;  
+}
+
+.card{
+  position: unset;
+  display:flex
 }
 .Image {
   margin: 20px 20px 20px 20px;
@@ -76,7 +106,7 @@ img {
 
 .ContactMe {
   grid-row: 3;
-  
+  height: 100vh;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -111,6 +141,6 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-.PortCard {
-  display: inline;
-}
+/* .PortCard {
+  display: inline-block;
+} */
